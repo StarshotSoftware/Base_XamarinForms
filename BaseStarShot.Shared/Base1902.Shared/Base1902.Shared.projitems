@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d1d9485b-932a-4648-84cf-c41dbc9243ca</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Base1902</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\UIHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\UIHelperExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Error\EDAMErrorCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Error\EDAMNotFoundException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Error\EDAMSystemException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Error\EDAMUserException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Limits\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\ClientUsageMetrics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NoteCollectionCounts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NoteEmailParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NoteFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NoteList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NoteMetadata.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NotesMetadataList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NotesMetadataResultSpec.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NoteStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\NoteVersionId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\RelatedQuery.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\RelatedResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\RelatedResultSpec.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\SyncChunk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\SyncChunkFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\NoteStore\SyncState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\Accounting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\BusinessNotebook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\BusinessUserInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\BusinessUserRole.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\Data.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\LazyMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\LinkedNotebook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\Note.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\NoteAttributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\Notebook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\NotebookDescriptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\NotebookRestrictions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\NoteSortOrder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\PremiumInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\PremiumOrderStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\PrivilegeLevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\Publishing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\QueryFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\ReminderEmailConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\Resource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\ResourceAttributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\SavedSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\SavedSearchScope.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\SharedNotebook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\SharedNotebookInstanceRestrictions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\SharedNotebookPrivilegeLevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\SharedNotebookRecipientSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\SponsoredGroupRole.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\Type\UserAttributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\UserStore\AuthenticationResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\UserStore\BootstrapInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\UserStore\BootstrapProfile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\UserStore\BootstrapSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\UserStore\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\UserStore\PublicUserInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evernote\EDAM\UserStore\UserStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\PingManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\DES\DESCryptography.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\DES\TripleDESEncryption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\MD5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\MD5Managed.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\RNCryptor\Cryptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\RNCryptor\Decryptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\RNCryptor\Encryptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\EmailService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\HttpWebRequestManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\FileService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Social\SocialMediaService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Collections\THashSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TBase64Utils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TBinaryProtocol.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TField.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TMessageType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TProtocol.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TProtocolException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TProtocolFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TProtocolUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TStruct.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Protocol\TType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\TApplicationException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\TProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Transport\THttpClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Transport\TServerTransport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Transport\TTransport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Transport\TTransportException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Thrift\Transport\TTransportFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Security\RNCryptor\LICENSE" />
+  </ItemGroup>
+</Project>
